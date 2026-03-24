@@ -1,4 +1,5 @@
-//+build linux,arm64
+//go:build linux && (arm64 || loong64 || riscv64)
+// +build linux,arm64 linux,loong64 linux,riscv64
 
 package panicwrap
 

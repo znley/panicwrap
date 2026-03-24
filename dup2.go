@@ -1,4 +1,5 @@
-// +build linux,!arm64 !linux,!windows
+//go:build linux && (386 || amd64)
+// +build linux,386 linux,amd64
 
 package panicwrap
 
